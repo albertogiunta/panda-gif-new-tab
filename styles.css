@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70b g32;
+    background-repeat: no-repeat
+}
+body {
+    background: #fff;
+    font-size: 100%;
+    font-weight: 400;
+    color: #272727;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    background: linear-gradient( to left top, #EB3349, #F45C43) fixed;
+}
+
+.spinner {
+  margin: 0px auto 0px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 12px;
+  height: 12px;
+  background-color: #eaeaea;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.3s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+.error {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    margin: 0px auto 0px;
+    display: none;
+}
+
+.error > p {
+    margin-top: -200px;
+}
+
+.error > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gif {
+  zoom: 200%;
+}
+
+img {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 14px 100px -24px #151515;
+  border-radius: 7px;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 12px;
+  background-color: #c51f2e;
+}
+
+.footer > .left {
+	text-align: left;
+	width: 400px;
+	float: left;
+}
+
+.footer > .right {
+	text-align: right;
+	margin-top: 2px;
+	width: 200px;
+	float: right;
+}

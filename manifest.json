@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.3",
+    "name": "Panda Gif New Tab",
+    "short_name": "Panda Gif New Tab",
+    "description": "A panda everyday keeps the doctor away!",
+    "author": "Alberto Giunta",
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+    "icons": {
+        "16": "/res/icon16.png",
+        "48": "/res/icon48.png",
+        "128": "/res/icon128.png"
+    }
+ }
