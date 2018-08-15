@@ -89,7 +89,8 @@ body {
 
 img {
   top: 50%;
-  left: 50%;
+  /* left: 50%; */
+  margin: auto;
   position: absolute;
   transform: translate(-50%, -50%);
   box-shadow: 0px 14px 100px -24px #151515;
@@ -113,7 +114,6 @@ img {
 }
 
 .footer > .right {
-	text-align: right;
 	margin-top: 2px;
 	width: 200px;
 	float: right;
